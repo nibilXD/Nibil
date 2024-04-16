@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Added to center align content */
+  min-height: 100vh; /* Added for responsiveness */
+}
+
+.profile-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  overflow: hidden;
+  margin-bottom: 20px; /* Added space between profile card and about me box */
+  animation: shake 0.8s ease; /* Shake animation */
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  10% { transform: translateX(-5px) rotate(-5deg); }
+  20% { transform: translateX(5px) rotate(5deg); }
+  30% { transform: translateX(-5px) rotate(-5deg); }
+  40% { transform: translateX(5px) rotate(5deg); }
+  50% { transform: translateX(-5px) rotate(-5deg); }
+  60% { transform: translateX(5px) rotate(5deg); }
+  70% { transform: translateX(-5px) rotate(-5deg); }
+  80% { transform: translateX(5px) rotate(5deg); }
+  90% { transform: translateX(-5px) rotate(-5deg); }
+  100% { transform: translateX(0); }
+}
+
+.profile-card__img {
+  text-align: center;
+}
+
+.profile-card__img img {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.profile-card__info {
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px; /* Added space between profile card and about me box */
+}
+
+.profile-card__name {
+  font-size: 24px;
+  margin: 0;
+}
+
+.profile-card__bio {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.profile-card__location {
+  font-size: 14px;
+  color: #666;
+}
+
+.profile-card__email {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #333;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.about-me-box {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: justify;
+}
+
+.about-me-box h2 {
+  margin-top: 0;
+}
+
+.about-me-box p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.profile-card__social {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-card__social-link {
+  text-decoration: none;
+  color: #333;
+  padding: 10px; /* Adjusted padding */
+  border-radius: 20px;
+  font-size: 24px; /* Increased font size */
+  text-align: center;
+}
+
+.profile-card__social-link:hover {
+  background-color: #ddd;
+}
+
+.profile-card__social a i {
+  font-size: 32px; /* Increased font size */
+  color: #555; /* Add color to social icons */
+}
+
+.profile-card__social-link.x-icon i {
+  font-size: 32px; /* Increased font size */
+  color: #000; /* Changed color to black */
+}
