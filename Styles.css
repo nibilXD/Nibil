@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #000000; /* Black background */
+    color: #ffffff;
+    margin: 0;
+}
+
+header.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    text-align: center;
+}
+
+header.hero .logo-container {
+    margin-bottom: 20px;
+}
+
+header.hero .logo {
+    width: 300px;
+}
+
+header.hero .tagline {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #FFf; /* Golden accents */
+    margin-top: 10px;
+}
+
+.about-brand {
+    text-align: center;
+    padding: 40px 10%;
+    background-color: #121212;
+}
+
+.about-brand h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #FFf; /* Gold accent */
+}
+
+.about-brand p {
+    font-size: 1.2rem;
+    color: #B0B0B0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+    padding: 40px;
+}
+
+.art-piece {
+    background-color: green;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.art-piece:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 40px rgba(126, 0, 14, 0.5);
+}
+
+.art-piece img {
+    width: 100%;
+    display: block;
+    border-bottom: 3px solid #FFf;
+}
+
+.description {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.description h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #FFf;
+}
+
+.description .mini-title {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #F57f;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 1rem;
+    color: #B0B0B0;
+    margin-bottom: 15px;
+}
+
+.description .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FFf;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #121212;
+    color: #777;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .cta-btn {
+    background-color: #FFf;
+    color: #000;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+footer .cta-btn:hover {
+    background-color: #fff;
+}
