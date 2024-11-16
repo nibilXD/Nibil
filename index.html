@@ -1,36 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modern Profile Card</title>
-  <link rel="stylesheet" href="css/nibil.css"> <!-- Linking the CSS file -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZENGTA Gallery</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="profile-card">
-    <div class="profile-card__img">
-      <img src="img/logo.png" alt="Profile Picture">
-    </div>
-    <div class="profile-card__info">
-      <h1 class="profile-card__name">Nibil Krishna</h1>
-      <p class="profile-card__email" onclick="window.location.href = 'mailto:nibilkrishna@gmail.com';">nibilkrishna@gmail.com</p>
-      <p class="profile-card__bio">Co-founder of kiyonomi.in</p>
-      <p class="profile-card__location"><i class="fas fa-map-marker-alt"></i> Kerala, India</p>
-      <div class="profile-card__social">
-        <a href="#" class="profile-card__social-link x-icon"><i>𝕏</i> </a>
-        <a href="#" class="profile-card__social-link"><i class="fab fa-github-square" style="color: #000;"></i></a>
-      </div>
-      <div class="profile-card__social">
-        <a href="#" class="profile-card__social-link"><i class="fab fa-instagram-square" style="color: #E1306C;"></i> </a>
-        <a href="#" class="profile-card__social-link"><i class="fab fa-discord" style="color: #7289DA;"></i> </a>
-      </div>
-    </div>
-  </div>
 
-  <div class="about-me-box">
-    <h2>About Me</h2>
-    <p>I'm a 15-year-old web enthusiast and the co-founder of kiyonomi.in. I'm passionate about technology and enjoy creating innovative solutions. Currently, I reside in Kerala, India. I'm always eager to learn and explore new things in the vast world of web development.</p>
-  </div>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="logo-container">
+            <img src="logo.png" alt="ZENGTA Logo" class="logo">
+        </div>
+        <h1 class="tagline">A Symphony of Exclusivity in Art</h1>
+    </header>
+
+    <!-- About the Brand Section -->
+    <section class="about-brand">
+        <h2>About ZENGTA Gallery</h2>
+        <p>ZENGTA Gallery is committed to offering unparalleled art that celebrates the depth of human expression. Each piece is meticulously curated, ensuring it embodies both artistic excellence and timeless elegance. Our exclusive collection represents a fusion of traditional and contemporary styles, designed for those who seek true beauty.</p>
+    </section>
+
+    <!-- Art Collection Section -->
+    <main>
+        <section class="gallery">
+            <div class="art-piece">
+                <img src="p1.jpg" alt="Celestial Harmony">
+                <div class="description">
+                    <h2>rick of Zeus</h2>
+                    <p class="mini-title">When you check your bank account after buying something you didn’t need</p>
+                    <p>A man in white underwear stands bravely in a storm, with lightning flashing around him.</p>
+                    <p class="price">$50,000</p> <!-- Market price for the artwork -->
+                </div>
+            </div>
+
+            <div class="art-piece">
+                <img src="p2.jpg" alt="wizard's Money Policy">
+                <div class="description">
+                    <h2>wizard's Money Policy</h2>
+                    <p class="mini-title">When your spells work better than your investment portfolio.</p>
+                    <p> A wizard with a long, flowing robe and a mischievous grin stands triumphantly over a flaming dollar bill. The fire reflects in his glasses as he holds his wand high, casting a spell that makes money go poof into smoke.</p>
+                    <p class="price">$75,000</p> <!-- Market price for the artwork -->
+                </div>
+            </div>
+
+            <div class="art-piece">
+                <img src="p0.jpg" alt="Ethereal Bloom">
+                <div class="description">
+                    <h2>Ethereal Bloom</h2>
+                    <p class="mini-title">Nature’s Grace Unveiled</p>
+                    <p>A delicate portrayal of life’s fleeting beauty, this work draws on organic forms to evoke the sublime elegance of blooming nature.</p>
+                    <p class="price">$60,000</p> <!-- Market price for the artwork -->
+                </div>
+            </div>
+
+            <div class="art-piece">
+                <img src="p0.jpg" alt="Shadowed Dreams">
+                <div class="description">
+                    <h2>Shadowed Dreams</h2>
+                    <p class="mini-title">Light in the Darkness</p>
+                    <p>An introspective exploration of subconscious fears and hopes, showcasing the interplay of shadows and luminescence.</p>
+                    <p class="price">$55,000</p> <!-- Market price for the artwork -->
+                </div>
+            </div>
+
+            <div class="art-piece">
+                <img src="p0.jpg" alt="Radiant Horizon">
+                <div class="description">
+                    <h2>Radiant Horizon</h2>
+                    <p class="mini-title">The Glow of Renewal</p>
+                    <p>Inspired by the majesty of sunsets, this vibrant piece captures the beauty of transitions and the promise of a new dawn.</p>
+                    <p class="price">$65,000</p> <!-- Market price for the artwork -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>ZENGTA Gallery © 2024. All rights reserved.</p>
+
+    </footer>
+
 </body>
 </html>
